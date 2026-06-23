@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/styles-sendmoney.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md position-relative py-3">
+            <div class="position-absolute start-0 top-0 me-3 mt-2">
+                <button class="btn border-0"><a style="font-size: 30px;" href="../pages/main.html"><i
+                            class="fa-solid fa-arrow-left"></i></a></button>
+            </div>
+            <div class="container d-flex justify-content-center">
+                <ul class="navbar-nav flex-column text-center list-unstyled mb-0">
+                    <li class="navbar-text d-flex mx-auto ">
+                        
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link p-0">
+                            
+                        </a>
+                    </li>
+                    <div class="navbar-text d-flex mx-auto ">Lorem ipsum dolor sit amet.</div>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h2 class="text-center mb-2 mt-3">Enviar Dinero</h2>
+            <form>
+                <div class="form-group form-control-lg mx-auto flex-nowrap text-center" style="max-width: 450px">
+                    <label for="searchContact">Buscar en la agenda de transferencias:</label>
+                    <input type="text" class="form-control" id="searchContact" placeholder="Buscar contacto">
+                    <button type="submit" class="btn btn-primary mt-3">Agregar nuevo contacto</button>
+                </div>
+                
+                
+                <h3>Contactos</h3>
+                <ul id="contactList" class="list-group">
+                    <li class="list-group-item">
+                        <div class="contact-info">
+                            <span class="contact-name">John Doe</span>
+                            <span class="contact-details">CBU: 123456789, Alias: john.doe, Banco: ABC Bank</span>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="contact-info">
+                            <span class="contact-name">Jane Smith</span>
+                            <span class="contact-details">CBU: 987654321, Alias: jane.smith, Banco: XYZ Bank</span>
+                        </div>
+                    </li>
+                    <button type="submit" class="btn btn-success my-3">Enviar dinero</button>
+            </form>
+            <a href="menu.html" class="btn btn-primary my-3">Volver al Menú Principal</a>
+        </div>
+
+
+    </main>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+<!--d-flex: Convierte el contenedor en un modelo de caja flexible para alinear los elementos en fila.-->
+<!--flex-nowrap: Evita que los contactos se bajen a la siguiente línea cuando no quepan en la pantalla, forzando la línea horizontal.-->
+
+<!--overflow-x-auto: Activa la barra de desplazamiento horizontal automáticamente cuando los elementos superan el ancho de la pantalla del celular.-->
+<!--flex-shrink-0: Aplicado a cada <li>. Evita de forma estricta que los elementos se encojan, forzando la aparición del scroll horizontal táctil.-->
+<!--mx-auto: margen izquierdo y derecho automatico-->
+
+<!--rounded-circle: Una clase opcional de Bootstrap que hace que las fotos de contactos se vean redondas.-->
+
+<!--w100: width=100%. se combina con d-flex o display="flex"-->
+<!--    <div>
+                <h3 class="text-center mb-2 mt-3">Contactos</h3>
+                <ul class="list-unstyled d-flex flex-nowrap overflow-x-auto gap-2 pb-2 justify-content-center">
+                    <li class="flex-shrink-0"><a href=""><img src="../assets/img/lineplot-seaborn.png" alt="asdf"
+                                class=" rounded-circle" style="max-width: 90px;"></a></li>
+                    <li class="flex-shrink-0"><a href=""><img src="../assets/img/lineplot-seaborn.png" alt="asdf"
+                                class=" rounded-circle" style="max-width: 90px;"></a></li>
+                    <li class="flex-shrink-0"><a href=""><img src="../assets/img/lineplot-seaborn.png" alt="asdf"
+                                class=" rounded-circle" style="max-width: 90px;"></a></li>
+                    <li class="flex-shrink-0"><a href=""><img src="../assets/img/lineplot-seaborn.png" alt="asdf"
+                                class=" rounded-circle" style="max-width: 90px;"></a></li>
+                    <li class="flex-shrink-0"><a href=""><img src="../assets/img/lineplot-seaborn.png" alt="asdf"
+                                class=" rounded-circle" style="max-width: 90px;"></a></li>
+                    <li class="flex-shrink-0"><a href=""><img src="../assets/img/lineplot-seaborn.png" alt="asdf"
+                                class=" rounded-circle" style="max-width: 90px;"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center mt-3">
+            <button class="btn btn-primary">Enviar</button>
+        </div>
+-->

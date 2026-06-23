@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(rgb(93, 0, 255), rgb(114, 114, 245), rgb(44, 22, 22));
+}
+
+.top-info i {
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: rgb(255, 214, 11);
+    padding: 10px;
+    background-color: rgb(10, 73, 132);
+    border-radius: 20%;
+    border-style: double;
+    border-color: red;
+    border-width: 3px;
+}
+
+h1 {
+    font-weight: 600;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+a {
+    color: rgb(205, 196, 25);
+}
+
+.login-accounts i {
+    margin: 10px 0;
+    margin-right: 5px;
+    color: white;
+    background: linear-gradient(red, blue);
+    padding: 2px;
+    border-radius: 30%;
+    
+}
+.login-bar .clave{
+    margin: 10px 0;
+}
+.login-bar button{
+    margin: 10px 0;
+}
+
