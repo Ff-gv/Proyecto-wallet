@@ -1,0 +1,60 @@
+<style>@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+</style>
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: -webkit-linear-gradient(white, gold);
+    border-radius: 0 0 30px 30px;
+}
+
+body {
+    background: repeating-linear-gradient(rgb(244, 231, 85), rgb(161, 50, 161), rgb(48, 30, 35));
+    min-height: 100vh;
+    font-family: "Noto Sans", sans-serif;
+    
+}
+
+body .titulo h1 {
+    color:white;
+    margin-top: 3px;
+}
+body h2{
+    color: white;
+    font-weight: 700;
+    
+}
+
+body .titulo{
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    border-color: blanchedalmond;
+    border-style: groove;
+    border-width: 4px;
+    padding: 2px 2px;
+    max-width: 300px;
+    margin: 0 auto;
+    box-shadow: 0 3px 3px 3px;
+
+}
+
+main div .btn-group {
+    border-style: outset;
+    border-width: 4px;
+    border-color: gray;
+    box-shadow: 2px 2px;
+    background-color: white;
+
+}
+main .enviar-dinero button{
+    color: black;
+    background-color: antiquewhite;
+    border-style: outset;
+    border-width: 5px;
+    border-color: rgb(232, 231, 231);
+    box-shadow: 2px 2px;
+}
