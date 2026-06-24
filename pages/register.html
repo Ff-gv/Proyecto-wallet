@@ -17,27 +17,30 @@
     <main>
         <div class="container">
             <div row>
-                <form action="">
-                    <label for="Nombre-completo" class="form-label">Nombre completo:</label>
-                    <div>
-                        <input type="text" class="form-control form-control-lg">
-                    </div>
-                    <label for="correo-electronico" class="form-label">Correo electronico:</label>
-                    <div>
+                <form action="" class="registro ">
 
-                        <input type="text" class="form-control form-control-lg">
+                    <div class="mt-5 mx-auto">
+                        <label for="Nombre" class="form-label">Nombre completo:</label>
+                        <input type="text" name="nombre" class="form-control" id="nombre"
+                            placeholder="Ingrese su nombre">
                     </div>
-                    <label for="password" class="form-label">Contraseña:</label>
-                    <div>
-                        <input type="text" class="form-control form-control-lg">
+                    <div class="mt-2 mx-auto">
+                        <label for="usuario" class="form-label">usuario:</label>
+                        <input type="text" name="usuario" class="form-control" id="usuario"
+                            placeholder="Ingrese su usuario">
                     </div>
-                    <label for="password-confirmar" class="form-label">Confirmar contraseña:</label>
-                    <div>
-
-                        <input type="text" class="form-control form-control-lg">
+                    <div class="mt-2 mx-auto">
+                        <label for="password" class="form-label">Contraseña:</label>
+                        <input type="password" name="password" class="form-control" id="password"
+                            placeholder="Ingrese contraseña">
+                    </div>
+                    <div class="mt-2 mx-auto">
+                        <label for="password-confirmar" class="form-label">Confirmar contraseña:</label>
+                        <input type="password" name="confirmar_password" class="form-control" id="confirmar_password"
+                            placeholder="Reingrese contraseña">
                     </div>
             </div>
-            <div class="mt-5 text-center">
+            <div class="mt-5 mb-5 text-center">
                 <button class="btn btn-primary">
                     Registrarse
                 </button>

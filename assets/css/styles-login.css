@@ -55,3 +55,8 @@ a {
     margin: 10px 0;
 }
 
+main .registro div{
+    max-width: 400px;
+    color: green;
+    align-items: center;
+}
