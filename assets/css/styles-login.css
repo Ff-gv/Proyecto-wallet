@@ -4,15 +4,17 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background: linear-gradient(rgb(93, 0, 255), rgb(114, 114, 245), rgb(44, 22, 22));
     min-height: 100vh;
 }
-main{
+
+main {
     height: 87vh;
     justify-content: center;
     align-items: center;
 }
+
 .top-info i {
     font-size: 50px;
     margin-top: 30px;
@@ -35,7 +37,8 @@ h1 {
     color: white;
 }
 
-.label-inicio, p {
+.label-inicio,
+p {
     color: white;
 }
 
@@ -50,22 +53,24 @@ a {
     background: linear-gradient(red, blue);
     padding: 2px;
     border-radius: 30%;
-    
+
 }
-.login-bar .clave{
-    margin: 10px 0;
-}
-.login-bar button{
+
+.login-bar .clave {
     margin: 10px 0;
 }
 
-main .registro div{
+.login-bar button {
+    margin: 10px 0;
+}
+
+main .registro div {
     max-width: 400px;
-    color: green;
+    color: white;
     align-items: center;
 }
 
-main .login-bar div form .btn-iniciar{
+main .login-bar div form .btn-iniciar {
     background-color: purple;
     color: white;
     border-style: solid;
@@ -74,3 +79,20 @@ main .login-bar div form .btn-iniciar{
     border-width: 4px 1px 4px 1px;
 }
 
+main .btn-index-iniciar {
+    background-color: rgb(146, 1, 62);
+    color: white;
+    border-style: solid;
+    border-radius: 10%;
+    border-color: gold;
+    border-width: 4px 0 4px 0;
+}
+
+main .btn-index-registrar {
+    background-color: rgb(70, 0, 128);
+    color: white;
+    border-style: solid;
+    border-radius: 10%;
+    border-color: rgb(16, 190, 120);
+    border-width: 4px 0 4px 0;
+}
