@@ -4,11 +4,15 @@
     box-sizing: border-box;
 }
 
-body {
+body{
     background: linear-gradient(rgb(93, 0, 255), rgb(114, 114, 245), rgb(44, 22, 22));
     min-height: 100vh;
 }
-
+main{
+    height: 87vh;
+    justify-content: center;
+    align-items: center;
+}
 .top-info i {
     font-size: 50px;
     margin-top: 30px;
@@ -27,11 +31,11 @@ h1 {
     color: white;
 }
 
-p {
+.texto-inicio {
     color: white;
 }
 
-label {
+.label-inicio, p {
     color: white;
 }
 
@@ -60,3 +64,13 @@ main .registro div{
     color: green;
     align-items: center;
 }
+
+main .login-bar div form .btn-iniciar{
+    background-color: purple;
+    color: white;
+    border-style: solid;
+    border-radius: 10%;
+    border-color: gold;
+    border-width: 4px 1px 4px 1px;
+}
+
