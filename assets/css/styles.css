@@ -105,21 +105,23 @@ main form .btn-contacto {
     background-color: rgb(195, 98, 255);
 }
 
-#logout{
+#logout {
     color: red;
     background-color: darksalmon;
     border-color: white;
 }
+
 /*login.html index.html register.html*/
-#header-index{
+#header-index {
     font-weight: 600;
 }
-.front-body{
+
+.front-body {
     background: linear-gradient(rgb(93, 0, 255), rgb(114, 114, 245), rgb(44, 22, 22));
     min-height: 120vh;
 }
 
-.front-main{
+.front-main {
     height: vh;
     justify-content: center;
     align-items: center;
@@ -206,9 +208,11 @@ main .btn-index-registrar {
     border-color: rgb(16, 190, 120);
     border-width: 4px 0 4px 0;
 }
-.titulo-principal{
+
+.titulo-principal {
     color: white;
 }
-#texto-iniciar-sesion{
-color: wheat;
+
+#texto-iniciar-sesion {
+    color: wheat;
 }
