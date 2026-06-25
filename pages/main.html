@@ -8,11 +8,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-    <link rel="stylesheet" href="../assets/css/styles-deposit.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 
 <body>
-    <header>
+    <header class="head-back">
         <nav class="navbar navbar-expand-md ">
             <div class="container">
                 <a href="" class="navbar-brand" id="icono-principal"><i class="fa-solid fa-money-bill-trend-up"></i></a>
@@ -22,10 +22,12 @@
                 <div class="collapse navbar-collapse" id="nav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="../pages/transaction.html" class="nav-link"><i class="fa-solid fa-money-bill-transfer"></i>Transacciones</a>
+                            <a href="../pages/transaction.html" class="nav-link"><i
+                                    class="fa-solid fa-money-bill-transfer"></i>Transacciones</a>
                         </li>
                         <li class="nav-item">
-                            <a href="../pages/sendmoney.html" class="nav-link"><i class="fa-solid fa-money-bill-wave"></i>Enviar dinero</a>
+                            <a href="../pages/sendmoney.html" class="nav-link"><i
+                                    class="fa-solid fa-money-bill-wave"></i>Enviar dinero</a>
                         </li>
                         <li class="nav-item">
                             <a href="deposit.html" class="nav-link"><i class="fa-solid fa-user-group"></i>Depositar</a>
@@ -34,7 +36,10 @@
                 </div>
 
             </div>
-
+            <div class="position-absolute end-0 top-0 me-3 mt-2">
+                <button class="btn btn-primary" id="logout">
+                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+            </div>
 
         </nav>
 
@@ -52,13 +57,13 @@
                 </div>
 
             </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class="card text-bg-info mb-1 img-card">
+                <img class="card-img-top" src="../assets/img/lineplot-seaborn.png"></img>
             </div>
-            <div class="d-flex justify-content-center">
-                <div class="card text-bg-info mb-1 img-card">
-                    <img class="card-img-top" src="../assets/img/lineplot-seaborn.png"></img>
-                    </div>
-                </div>
-            </div>
+        </div>
+        </div>
 
 
 
@@ -66,6 +71,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+        <script src="../assets/js/script.js"></script>
 </body>
 
 
