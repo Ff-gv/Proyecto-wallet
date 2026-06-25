@@ -59,7 +59,7 @@
     <script>
         document.getElementById("registro").addEventListener("submit", function (event) {
             event.preventDefault();
-            console.log("Formulario enviado");
+            
 
             const nombre = document.getElementById("nombre").value;
             const usuario = document.getElementById("usuario").value;
@@ -83,7 +83,7 @@
             }
 
             let usuarios = JSON.parse(localStorage.getItem("usuarios")) || [];
-            console.log(nuevoUsuario);
+            
             usuarios.push(nuevoUsuario);
 
             localStorage.setItem("usuarios", JSON.stringify(usuarios));
